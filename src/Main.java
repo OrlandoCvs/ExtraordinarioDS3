@@ -1,15 +1,15 @@
 
 import org.xml.sax.SAXException;
-
 import javax.swing.*;
-import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.parsers.ParserConfigurationException
+;import javax.xml.parsers.SAXParserFactory;
 import javax.xml.parsers.SAXParser;
-import javax.xml.parsers.SAXParserFactory;
-import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.net.URL;
 import java.util.List;
+import java.net.URL;
+
 
 public class Main {
     public static void main(String[] args) throws IOException {
